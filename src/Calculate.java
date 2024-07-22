@@ -6,7 +6,7 @@ public class Calculate {
         for (int i = 1; i < number; i++) {
             sum += i;
             if (sum > 10000) {
-                throw new MainSecondException();
+                throw new SecondException();
             }
 
 

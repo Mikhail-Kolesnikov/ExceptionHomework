@@ -13,11 +13,11 @@ public class CompareNumbers {
 
 
 
-    public void compareInside(int first, int second) throws MainException {
+    public void compareInside(int first, int second) throws FirstException {
         if (first > second) {
             System.out.println("Первое число больше второго");
 
-            throw new MainException();
+            throw new FirstException();
         }
         System.out.println("Сравнение верно");
     }

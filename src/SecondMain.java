@@ -4,7 +4,7 @@ public class SecondMain {
         try {
             compareNumbers.compareInside(3,6);
 
-        } catch (MainException e) {
+        } catch (FirstException e) {
 
             e.printStackTrace();
 
