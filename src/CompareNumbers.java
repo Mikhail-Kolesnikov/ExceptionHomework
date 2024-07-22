@@ -1,19 +1,19 @@
 public class CompareNumbers {
 
 
-    public int compare(){
-
-        try {
-            compareInside();
-        } catch (MainException e) {
-
-        }return 0;
-    }
-
-
+//    public int compare(){
+//
+//        try {
+//            compareInside();
+//        } catch (MainException e) {
+//
+//        }return 0;
+//    }
 
 
-    private void compareInside(int first, int second) throws MainException {
+
+
+    public void compareInside(int first, int second) throws MainException {
         if (first > second) {
             System.out.println("Первое число больше второго");
 
